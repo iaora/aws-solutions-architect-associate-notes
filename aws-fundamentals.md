@@ -129,8 +129,20 @@
   - Allows users to automate resources
 
 ### Cloudwatch (CW) Basics
-- Collects and manages operational data 
-- Metrics - AWS products, apps, on-premises
+- Overview:
+  - Collects and manages operational data 
+  - 3 Main products:
+    - Metrics:
+      - Monitoring, collection, actions metrics
+      - AWS products, apps, on-premises 
+      - Need cloudwatch agent to gather data from non-AWS products or non-exposed parts of AWS like EC2
+    - CloudWatch Logs:
+      - Collection, monitoring, events based on logs 
+    - CloudWatch events:
+      - if AWS service does something 
+      - Scheduled events 
+- Metrics:
+  - CPU Usage, Network IN/OUT, Disk IO
 
 ### High-Availability vs Fault-Tolerance vs Disaster Recovery
 - High-Availability: Aims to ensure that an agreed level of operational performance, usually uptime, for a higher

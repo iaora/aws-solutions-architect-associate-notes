@@ -60,8 +60,14 @@
   - **TL;DR Groups are a container for IAM users**
 
 ### Cloudwatch
-- regional 
-
+- Overview:
+  - Public service 
+  - Store, monitor, and access logging data 
+  - AWS integrations via IAM roles or service roles 
+  - Can generic metrics based on logics - metric filter 
+  - Non-API calls
+- Architecture:
+  - Regional service
 
 ### Cloudtrail 
 - Logs API calls/activities as a cloudtrail event

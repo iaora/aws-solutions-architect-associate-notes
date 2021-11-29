@@ -30,6 +30,7 @@
 - Architecture using Shield and WAF:
   - DDoS == Shield
   - Layer 7 filtering, HTTP/HTTPS filtering == WAF
+  - ![](imgs/shield-and-waf.png)
 
 ### CloudHSM
 - Overview:
